@@ -1,14 +1,85 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+@import url("https://fonts.googleapis.com/css?family=Oswald|Raleway:300,400,600");
 
 // Variables
 @import "variables";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+//utility
+@import "__utility.scss";
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// // Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+* {
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 80%;
+}
+
+body {
+    background-image: url('/img/purple-sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+p {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    display: inline;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+    padding: 20px;
+}
+
+a:hover {
+    background: #fff;
+    color: #200245;
+}
+
+.main-nav {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #200245;
+    height: 80px;
+
+}
+
+footer {
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    background-color: #190136;
+}
+
+.home-content {
+    height: 900px;
+    text-align: center;
+    h1 {
+        font-size: 4em;
+    }
+    p {
+        font-size: 32px;
+    }
 }
