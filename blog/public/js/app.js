@@ -60,21 +60,19 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
-/******/ ({
-
-/***/ 11:
+/******/ ([
+/* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(12);
-module.exports = __webpack_require__(43);
+__webpack_require__(1);
+module.exports = __webpack_require__(2);
 
 
 /***/ }),
-
-/***/ 12:
+/* 1 */
 /***/ (function(module, exports) {
 
 $(document).ready(function () {
@@ -98,15 +96,22 @@ xhttp.onreadystatechange = function () {
 xhttp.open("GET", url, true);
 xhttp.send();
 
-function outputSongInfo(songInfo) {}
+function outputSongInfo(songInfo) {
+    var artist = songInfo.recenttracks.track[0].artist['#text'];
+    var album = songInfo.recenttracks.track[0].album['#text'];
+    var song = songInfo.recenttracks.track[0].name;
+    // var img = songInfo.recenttracks.track[0].image.array;
+    // var imageUrl = '';
+
+    document.getElementById('recentSong').innerHTML = "'" + song + "'" + " from " + "'" + album + "'" + " by " + artist;
+    // document.getElementById('songAlbum').src = "'" + imageUrl + "'";
+}
 
 /***/ }),
-
-/***/ 43:
+/* 2 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ })
-
-/******/ });
+/******/ ]);

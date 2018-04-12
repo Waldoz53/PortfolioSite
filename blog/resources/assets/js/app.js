@@ -20,5 +20,12 @@ xhttp.open("GET", url, true);
 xhttp.send();
 
 function outputSongInfo(songInfo) {
-    
+    var artist = songInfo.recenttracks.track[0].artist['#text'];
+    var album = songInfo.recenttracks.track[0].album['#text'];
+    var song = songInfo.recenttracks.track[0].name;
+    // var img = songInfo.recenttracks.track[0].image.array;
+    // var imageUrl = '';
+
+    document.getElementById('recentSong').innerHTML = "'" + song + "'" + " from " + "'" + album + "'" + " by " + artist;
+    // document.getElementById('songAlbum').src = "'" + imageUrl + "'";
 }
