@@ -137,7 +137,7 @@ footer {
 }
 
 .home-content {
-  height: 750px;
+  height: 900px;
   text-align: center;
 }
 
@@ -201,6 +201,10 @@ footer {
 }
 
 @media (max-width: 420px) {
+  .home-content {
+    height: 750px;
+  }
+
   .home-content h1 {
     font-size: 3em;
   }

@@ -79,7 +79,7 @@ $(document).ready(function () {
     $('#mobileMenu').hide();
 
     $('#mobileBars').click(function () {
-        $('#mobileMenu').toggle();
+        $('#mobileMenu').toggle(100);
     });
 });
 

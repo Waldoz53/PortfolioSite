@@ -95,7 +95,7 @@ footer {
 }
 
 .home-content {
-    height: 750px;
+    height: 900px;
     text-align: center;
     h1 {
         font-size: 4em;
@@ -145,6 +145,7 @@ footer {
 
 @media (max-width: 420px) {
     .home-content {
+        height: 750px;
         h1 {
             font-size: 3em;
         }
