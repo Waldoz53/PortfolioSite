@@ -76,6 +76,8 @@ module.exports = __webpack_require__(2);
 /***/ (function(module, exports) {
 
 $(document).ready(function () {
+    $('#mobileMenu').hide();
+
     $('#mobileBars').click(function () {
         $('#mobileMenu').toggle();
     });
@@ -100,11 +102,11 @@ function outputSongInfo(songInfo) {
     var artist = songInfo.recenttracks.track[0].artist['#text'];
     var album = songInfo.recenttracks.track[0].album['#text'];
     var song = songInfo.recenttracks.track[0].name;
-    // var img = songInfo.recenttracks.track[0].image.array;
-    // var imageUrl = '';
+    var img = songInfo.recenttracks.track[0].image[2]['#text'];
+    // console.log(img);
 
     document.getElementById('recentSong').innerHTML = "'" + song + "'" + " from " + "'" + album + "'" + " by " + artist;
-    // document.getElementById('songAlbum').src = "'" + imageUrl + "'";
+    document.getElementById('songAlbum').src = img;
 }
 
 /***/ }),
