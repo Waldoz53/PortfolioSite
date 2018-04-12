@@ -1,13 +1,17 @@
 @extends('layout')
 
 @section('content')
-<div class="home-content wrapper margin-top-60">
+<div class="home-content margin-top-30">
     <h1>Hello.</h1>
     <p>
-        I'm Waleed. I'm a web dev in Calgary, Canada.
+        I'm Waleed. I'm a front end/web developer based in Calgary, Canada.
     </p>
     <p>
-        I can do some front end stuff. I can do some back end stuff.
+        I really, really like purple.
     </p>
+    <p class='home-link margin-top-30 margin-bottom-30'><a href="https://github.com/Waldoz53" target='_blank'>My Github</a></p>
+
+    <p>I'm currently (or was last) listening to:</p>
+    <p id='recentSong'></p>
 </div>
 @endsection

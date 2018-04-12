@@ -24,6 +24,14 @@
   margin-top: 50px;
 }
 
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
 * {
   margin: 0 auto;
 }
@@ -33,7 +41,7 @@
 }
 
 body {
-  background-image: url("/img/purple-sky.jpg");
+  background-image: url("/img/purple.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -51,6 +59,7 @@ p {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 li {
@@ -81,7 +90,23 @@ a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #200245;
-  height: 80px;
+  height: 90px;
+}
+
+.mobile-header {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #200245;
+  height: 90px;
+}
+
+.mobile-menu {
+  display: none;
 }
 
 footer {
@@ -95,8 +120,12 @@ footer {
   background-color: #190136;
 }
 
+.mobile-footer {
+  display: none;
+}
+
 .home-content {
-  height: 900px;
+  height: 750px;
   text-align: center;
 }
 
@@ -106,5 +135,72 @@ footer {
 
 .home-content p {
   font-size: 32px;
+}
+
+.home-link a:hover {
+  background: #0C6324;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .main-nav {
+    display: none;
+  }
+
+  .main-footer {
+    display: none;
+  }
+
+  .mobile-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .mobile-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #200245;
+    height: 80px;
+  }
+
+  .mobile-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 120px;
+    background-color: #190136;
+  }
+}
+
+@media (max-width: 420px) {
+  .home-content h1 {
+    font-size: 3em;
+  }
+
+  .home-content p {
+    font-size: 24px;
+  }
+
+  .mobile-menu {
+    font-size: 12px;
+  }
+
+  .mobile-footer li {
+    font-size: 1em;
+  }
 }
 
