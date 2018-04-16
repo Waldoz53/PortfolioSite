@@ -40,7 +40,6 @@
                 <li><a href='https://github.com/Waldoz53' target="_blank">My Github</a></li>
                 <li><a href='/'>LinkedIn</a></li>
                 <li><a href='/'>Privacy Policy</a></li>
-                {{-- <li><a href=''>Other Stuff</a></li> --}}
             </ul>
         </footer>
         <footer class='mobile-footer'>

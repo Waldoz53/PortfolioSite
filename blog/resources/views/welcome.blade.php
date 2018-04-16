@@ -6,6 +6,7 @@
     <p>
         I'm a front end/web developer based in Calgary, Canada.
     </p>
+    <br>
     <p class='home-link margin-top-30 margin-bottom-30'><a href="https://github.com/Waldoz53" target='_blank'>My Github</a></p>
     <br>
     <br>
