@@ -6,6 +6,8 @@ $(document).ready(function(){
     });
 });
 
+
+//api call for Last.fm, uses my Lastfm user (Waldo53) and my api key
 var xhttp = new XMLHttpRequest();
 
 var url = 'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=Waldo53&api_key=5cfdd68f00e1eb295df127936c42b86a&format=json';
@@ -26,7 +28,6 @@ function outputSongInfo(songInfo) {
     var album = songInfo.recenttracks.track[0].album['#text'];
     var song = songInfo.recenttracks.track[0].name;
     var img = songInfo.recenttracks.track[0].image[2]['#text'];
-    // console.log(img);
 
     document.getElementById('recentSong').innerHTML = "'" + song + "'" + " from " + "'" + album + "'" + " by " + artist;
     document.getElementById('songAlbum').src = img;

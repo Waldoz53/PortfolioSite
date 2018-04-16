@@ -17,9 +17,9 @@
                 <h1><a href='/'>Waleed Rawasia</a></h1>
                 <ul class='flex nav-links'>
                     <li><a href='/'>Home!</a></li>
-                    <li><a href=''>My Work</a></li>
+                    <li><a href='/mywork'>My Work</a></li>
                     <li><a href='/about'>About</a></li>
-                    <li><a href=''>Contact!</a></li>
+                    <li><a href='/contact'>Contact!</a></li>
                 </ul>
         </div>
         <div class="mobile-header flex">
@@ -28,9 +28,9 @@
         </div>
         <div class="mobile-menu" id='mobileMenu'>
             <ul>
-                <li><a href=''>My Work</a></li>
+                <li><a href='/mywork'>My Work</a></li>
                 <li><a href='/about'>About</a></li>
-                <li><a href=''>Contact!</a></li>
+                <li><a href='/contact'>Contact!</a></li>
             </ul>
         </div>
         @yield('content')
