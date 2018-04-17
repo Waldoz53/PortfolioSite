@@ -13,7 +13,7 @@
     <br>
 
     <div class="bottom">
-        <p>I was last listening to:</p>
+        <p>Listening to:</p>
         <p id='recentSong'></p>
         <img class='margin-top-30' src="" id="songAlbum" alt="A listed song's album art">
     </div>

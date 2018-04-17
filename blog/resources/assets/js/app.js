@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $('#mobileMenu').hide();
+});
 
-    $('#mobileBars').click(function(){
-        $('#mobileMenu').toggle(100);
-    });
+$(document).on('click', '#mobileBars', function(){
+    $('#mobileMenu').toggle(100);
 });
 
 

@@ -77,10 +77,10 @@ module.exports = __webpack_require__(2);
 
 $(document).ready(function () {
     $('#mobileMenu').hide();
+});
 
-    $('#mobileBars').click(function () {
-        $('#mobileMenu').toggle(100);
-    });
+$(document).on('click', '#mobileBars', function () {
+    $('#mobileMenu').toggle(100);
 });
 
 //api call for Last.fm, uses my Lastfm user (Waldo53) and my api key

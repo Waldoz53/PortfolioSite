@@ -13,8 +13,8 @@
 
     </head>
     <body>
-        <div class="main-nav flex">
-                <h1><a href='/'>Waleed Rawasia</a></h1>
+        <div class="main-nav flex padding-top-20">
+                <h1><a href='/'>Waleed</a></h1>
                 <ul class='flex nav-links'>
                     <li><a href='/'>Home!</a></li>
                     <li><a href='/mywork'>My Work</a></li>
