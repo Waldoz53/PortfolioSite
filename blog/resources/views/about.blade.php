@@ -2,7 +2,6 @@
 
 @section('content')
 <div class="about-content wrapper margin-top-30 margin-bottom-60 center-text">
-    {{-- <img src="/img/myface.jpg" alt="it's me, waleed!" class='margin-bottom-30'> --}}
     <h1>About Me</h1>
     <br>
     <p>My skills:</p>

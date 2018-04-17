@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Waleed Rawasia - Web Dev</title>
+        <title>Waleed Rawasia - Front End Dev</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:100,600" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@
         <div class="main-nav flex padding-top-20">
                 <h1><a href='/'>Waleed</a></h1>
                 <ul class='flex nav-links'>
-                    <li><a href='/'>Home!</a></li>
+                    {{-- <li><a href='/'>Home!</a></li> --}}
                     <li><a href='/mywork'>My Work</a></li>
                     <li><a href='/about'>About</a></li>
                     <li><a href='/contact'>Contact!</a></li>
@@ -36,7 +36,7 @@
         @yield('content')
         <footer class='main-footer flex'>
             <ul>
-                <li><a href='/'>Home</a></li>
+                {{-- <li><a href='/'>Home</a></li> --}}
                 <li><a href='https://github.com/Waldoz53' target="_blank">My Github</a></li>
                 <li><a href='/'>LinkedIn</a></li>
                 <li><a href='/'>Privacy Policy</a></li>
