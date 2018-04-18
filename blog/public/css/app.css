@@ -239,11 +239,6 @@ footer {
   background-size: cover;
 }
 
-.card:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
-
 .card-js {
   background: #f0db4f;
 }
@@ -297,6 +292,11 @@ footer {
 
 .my-work .card {
   max-width: 30%;
+}
+
+.my-work .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .links a {

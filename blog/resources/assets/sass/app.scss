@@ -169,10 +169,6 @@ footer {
     }
 }
 
-.card:hover {
-    transform: scale(1.2);
-}
-
 .card-js {
     background: #f0db4f;
     h3 {
@@ -221,6 +217,10 @@ footer {
 
     .card {
         max-width: 30%;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
     }
 }
 

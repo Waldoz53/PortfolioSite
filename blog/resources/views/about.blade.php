@@ -39,6 +39,7 @@
         <p class='home-link'><a href='https://imgur.com/a/9NHHb' target="_blank">Photos from Saudi</a></p>
         <br><br>
         <p>Other Stuff I'm on:</p>
+        <br>
     </div>
     <div class="links wrapper flex flex-wrap">
         <a href='https://bitbucket.org/Waldoz53/' target="_blank"><i class="fab fa-bitbucket fa-2x"></i></a>
