@@ -29,27 +29,27 @@
         </div>
     </div>
     <div class="card">
-        <p class='margin-bottom-10'>Simple Javascript Rock/Paper/Scissors</p>
-        <img src="/img/javascriptrps.png" alt="screenshot of code from rock/paper/scissors">
+        <p class='margin-bottom-10'>Last.fm User Lookup</p>
+        <img src="/img/lastfmlookup.png" alt="screenshot of code from rock/paper/scissors">
         <div class="flex flex-wrap margin-top-10">
-            <p class='margin-bottom-10'><a href="https://s3.ca-central-1.amazonaws.com/js-assignment-4/assignment3.html" target="_blank">Link</a></p>
-            <p><a href="https://bitbucket.org/Waldoz53/js-assignment-3/" target="_blank">Source</a></p>
+            <p class='margin-bottom-10'><a href="https://lastfmusercheck-vkjxhpgsfg.now.sh" target="_blank">Link</a></p>
+            <p><a href="https://github.com/Waldoz53/LastFMUserCheck" target="_blank">Source</a></p>
         </div>
     </div>
     <div class="card">
-        <p class='margin-bottom-10'>Purple Sky</p>
-        <img src="/img/purple.jpg" alt="a screenshot of some of my work">
+        <p class='margin-bottom-10'>Javascript Super Simple Chat</p>
+        <img src="/img/jschat.png" alt="a screenshot the simple chatroom">
         <div class="flex flex-wrap margin-top-10">
-            <p class='margin-bottom-10'><a href="/" target="_blank">Link</a></p>
-            <p><a href="/" target="_blank">Source</a></p>
+            <p class='margin-bottom-10'><a href="https://new-groove-qlaelxxujh.now.sh/" target="_blank">Link</a></p>
+            <p><a href="https://github.com/Waldoz53/super-simple-js-chat" target="_blank">Source</a></p>
         </div>
     </div>
     <div class="card">
-        <p class='margin-bottom-10'>Purple Sky</p>
-        <img src="/img/purple.jpg" alt="a screenshot of some of my work">
+        <p class='margin-bottom-10'>This Site!</p>
+        <img src="/img/portfoliohome.png" alt="a screenshot of some of my work">
         <div class="flex flex-wrap margin-top-10">
             <p class='margin-bottom-10'><a href="/" target="_blank">Link</a></p>
-            <p><a href="/" target="_blank">Source</a></p>
+            <p><a href="https://github.com/Waldoz53/PortfolioSite" target="_blank">Source</a></p>
         </div>
     </div>
 </div>

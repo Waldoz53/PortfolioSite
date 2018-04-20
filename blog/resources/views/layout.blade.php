@@ -35,14 +35,12 @@
         @yield('content')
         <footer class='main-footer flex'>
             <ul>
-                <li><a href='/'>LinkedIn</a></li>
-                <li><a href='/'>Privacy Policy</a></li>
+                <li><a href='/privacypolicy'>Privacy Policy</a></li>
             </ul>
         </footer>
         <footer class='mobile-footer'>
             <ul>
-                <li><a href='/'>LinkedIn</a></li>
-                <li><a href='/'>Privacy Policy</a></li>
+                <li><a href='/privacypolicy'>Privacy Policy</a></li>
             </ul>
         </footer>
 

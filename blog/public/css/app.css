@@ -89,6 +89,7 @@ h3 {
 }
 
 p {
+  font-size: 1.4em;
   font-family: "Oswald", sans-serif;
   color: #fff;
 }
@@ -156,7 +157,7 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 90px;
-  background: #190136;
+  background: #3E194A;
 }
 
 .mobile-footer {
@@ -233,7 +234,6 @@ footer {
 
 .card img {
   max-width: 100%;
-  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -368,6 +368,11 @@ footer {
 
   .my-work .card {
     max-width: 60%;
+  }
+
+  .my-work .card:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 

@@ -25,3 +25,7 @@ Route::get('/about', function () {
 
 Route::get('/contact', 'ContactController@create');
 Route::post('/contact', 'ContactController@store');
+
+Route::get("/privacypolicy", function () {
+    return view('privacypolicy');
+});

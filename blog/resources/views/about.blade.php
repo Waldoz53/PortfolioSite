@@ -42,6 +42,7 @@
         <br>
     </div>
     <div class="links wrapper flex flex-wrap">
+        <a href="https://www.linkedin.com/in/waleed-rawasia-47a082a7/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
         <a href='https://bitbucket.org/Waldoz53/' target="_blank"><i class="fab fa-bitbucket fa-2x"></i></a>
         <a href='https://soundcloud.com/sludgebomb53' target="_blank"><i class="fab fa-soundcloud fa-2x"></i></a>
         <a href='https://twitter.com/Waldoz53' target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
