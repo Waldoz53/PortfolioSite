@@ -8,7 +8,7 @@
         <p class='margin-bottom-10'>Laravel Pocket Imitation</p>
         <img src="/img/pocketimitation.jpg" alt="screenshot of my pocket imitation">
         <div class="flex flex-wrap margin-top-10">
-            {{-- <p class='margin-bottom-10'><a href="/mywork" target="_blank">Not online</a></p> --}}
+            <p class='margin-bottom-10'><a href="http://getpocket.thewaleed.com/" target="_blank">Link</a></p>
             <p><a href="https://bitbucket.org/Waldoz53/wbdv-winter-2018-php-waleed-rawasia" target="_blank">Source</a></p>
         </div>
     </div>
